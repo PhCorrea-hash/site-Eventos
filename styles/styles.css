@@ -1,0 +1,15 @@
+@import url("./header.css");
+@import url("./eventos.css");
+
+:root {
+    --fontePrincipal: "League Spartan", sans-serif;
+
+    --corBranca: #fff;
+    --textoDestaque: #330556;
+    --corPreta: #000;
+}
+
+body {
+    background: linear-gradient(180deg, #590996 0%, #000 100%), linear-gradient(180deg, #FFF 0%, #999 100%);
+    font-family: var(--fontePrincipal);
+}
