@@ -12,6 +12,13 @@
     text-align: center;
 }
 
+.mensagem-vazio {
+    font-size: 2rem;
+    opacity: 75%;
+    color: var(--corBranca);
+    text-align: center;
+}
+
 @media (min-width: 1440px) {
     #buscar {
         height: 50px;
@@ -19,5 +26,9 @@
         color: black;
         font-weight: 700;
         font-size: 1.5rem;
+    }
+
+    .mensagem-vazio {
+        font-size: 3rem;
     }
 }

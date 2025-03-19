@@ -30,7 +30,9 @@ const api = {
             const eventosFiltrados = eventos.filter(evento => {
                 return (evento.titulo.toLowerCase().includes(termoEmMinusculas)) ||
                 evento.descricao.toLowerCase().includes(termoEmMinusculas) ||
-                evento.local.toLowerCase().includes(termoEmMinusculas);
+                evento.local.toLowerCase().includes(termoEmMinusculas) ||
+                evento.data.toLowerCase().includes(termoEmMinusculas) ||
+                evento.cidade.toLowerCase().includes(termoEmMinusculas);
             })
 
             return eventosFiltrados;

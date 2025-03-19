@@ -15,7 +15,13 @@ const ui = {
             }
 
             if(eventosParaRenderizar.length === 0) {
-                alert("Vazio");
+                // alert("Vazio");
+                const mensagemVazio = document.createElement("p");
+                mensagemVazio.textContent = "Sem resultados para a busca";
+                mensagemVazio.classList.add("mensagem-vazio");
+
+                listaDeEventos.appendChild(mensagemVazio);
+
             } else {
                 eventosParaRenderizar.forEach(ui.adicionarEventoNaLista);
             }
