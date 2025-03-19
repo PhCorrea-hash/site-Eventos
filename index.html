@@ -13,42 +13,19 @@
         </div>
     </header>
 
-    <section class="eventos">
-        <ul class="eventos-lista">
-            <li class="eventos-lista-item">
-                <img class="eventos-lista-item_img" src="./assets/imgs/NOITE DOS SOLTEIROS.webp">
-                <h2 class="eventos-lista-item_titulo">NOITE DOS SOLTEIROS</h2>
-                <p class="eventos-lista-item_data">18 de março de 2025 às 23:00</p>
-                <p class="eventos-lista-item_descricao">VÉSPERA DE FERIADO - NOITE DOS SOLTEIROS! - OPEN BAR + BOOM Shot de Tequila Night e Sunset! ❤️‍🔥</p>
-                <a class="eventos-lista-item_link" href="https://zedoingresso.com.br/evento/2786/VESP--DE-FERIADO---NOITE-DOS-SOLTEIROS---OPEN-BAR------18-03-2025">Link da festa</a>
-            </li>
-
-            <li class="eventos-lista-item">
-                <img class="eventos-lista-item_img" src="./assets/imgs/NOITE DOS SOLTEIROS.webp">
-                <h2 class="eventos-lista-item_titulo">NOITE DOS SOLTEIROS</h2>
-                <p class="eventos-lista-item_data">18 de março de 2025 às 23:00</p>
-                <p class="eventos-lista-item_descricao">VÉSPERA DE FERIADO - NOITE DOS SOLTEIROS! - OPEN BAR + BOOM Shot de Tequila Night e Sunset! ❤️‍🔥</p>
-                <a class="eventos-lista-item_link" href="https://zedoingresso.com.br/evento/2786/VESP--DE-FERIADO---NOITE-DOS-SOLTEIROS---OPEN-BAR------18-03-2025">Link da festa</a>
-            </li>
-
-            <li class="eventos-lista-item">
-                <img class="eventos-lista-item_img" src="./assets/imgs/NOITE DOS SOLTEIROS.webp">
-                <h2 class="eventos-lista-item_titulo">NOITE DOS SOLTEIROS</h2>
-                <p class="eventos-lista-item_data">18 de março de 2025 às 23:00</p>
-                <p class="eventos-lista-item_descricao">VÉSPERA DE FERIADO - NOITE DOS SOLTEIROS! - OPEN BAR + BOOM Shot de Tequila Night e Sunset! ❤️‍🔥</p>
-                <a class="eventos-lista-item_link" href="https://zedoingresso.com.br/evento/2786/VESP--DE-FERIADO---NOITE-DOS-SOLTEIROS---OPEN-BAR------18-03-2025">Link da festa</a>
-            </li>
-
-            <li class="eventos-lista-item">
-                <img class="eventos-lista-item_img" src="./assets/imgs/NOITE DOS SOLTEIROS.webp">
-                <h2 class="eventos-lista-item_titulo">NOITE DOS SOLTEIROS</h2>
-                <p class="eventos-lista-item_data">18 de março de 2025 às 23:00</p>
-                <p class="eventos-lista-item_descricao">VÉSPERA DE FERIADO - NOITE DOS SOLTEIROS! - OPEN BAR + BOOM Shot de Tequila Night e Sunset! ❤️‍🔥</p>
-                <a class="eventos-lista-item_link" href="https://zedoingresso.com.br/evento/2786/VESP--DE-FERIADO---NOITE-DOS-SOLTEIROS---OPEN-BAR------18-03-2025">Link da festa</a>
-            </li>
-        </ul>
+    <section id="buscar-container">
+        <input type="text"
+        id="buscar"
+        placeholder="O que você esta procurando?">
     </section>
 
-    <script src="./scripts/main.js"></script>
+    <section class="eventos">
+        <ul id="eventos-lista" class="eventos-lista"></ul>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script type="module" src="./scripts/api.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/ui.js"></script>
 </body>
 </html>

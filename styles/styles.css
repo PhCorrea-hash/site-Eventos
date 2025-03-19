@@ -1,5 +1,6 @@
 @import url("./header.css");
 @import url("./eventos.css");
+@import url("./buscar.css");
 
 :root {
     --fontePrincipal: "League Spartan", sans-serif;
@@ -10,6 +11,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #590996 0%, #000 100%), linear-gradient(180deg, #FFF 0%, #999 100%);
+    /* background: linear-gradient(180deg, #590996 0%, #000 100%), linear-gradient(180deg, #FFF 0%, #999 100%); */
+    background: linear-gradient(22deg, #1A0350 24.85%, #000 83.6%);
     font-family: var(--fontePrincipal);
 }
